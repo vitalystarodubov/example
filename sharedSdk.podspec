@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/vitalystarodubov/example.git'
     s.license = { :type => 'Private' }
     s.author = { 'Vitali Starodubov' => 'vitaly.starodubov@solbeg.com' }
-    s.source = { :git => 'git@github.com:vitalystarodubov/example.git', :tag => s.version.to_s }
+    s.source = { :git => 'https://github.com/vitalystarodubov/example.git', :tag => s.version.to_s }
     s.platform = :ios
     s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = 'sharedSdk.xcframework'

@@ -2,20 +2,20 @@ PODS:
   - sharedSdk (1.0.0)
 
 DEPENDENCIES:
-  - "sharedSdk (from `git@github.com:vitalystarodubov/example.git`)"
+  - sharedSdk (from `https://github.com/vitalystarodubov/example.git`)
 
 EXTERNAL SOURCES:
   sharedSdk:
-    :git: "git@github.com:vitalystarodubov/example.git"
+    :git: https://github.com/vitalystarodubov/example.git
 
 CHECKOUT OPTIONS:
   sharedSdk:
     :commit: 1fc7d75bca0385c510a467dae80de4bf00c683df
-    :git: "git@github.com:vitalystarodubov/example.git"
+    :git: https://github.com/vitalystarodubov/example.git
 
 SPEC CHECKSUMS:
   sharedSdk: f739498cee4670aa8e7ef1f6f9692c003e964e09
 
-PODFILE CHECKSUM: 637f0ef7248d651344d3a30bcd2aa070eb63ce45
+PODFILE CHECKSUM: 4495ca1199fc312c49d53e9a4409da4fb1fbd81f
 
 COCOAPODS: 1.10.1
