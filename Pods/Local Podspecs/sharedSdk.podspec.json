@@ -1,0 +1,24 @@
+{
+  "name": "sharedSdk",
+  "module_name": "sharedSdk",
+  "version": "1.0.0",
+  "summary": "sharedSdk",
+  "description": "sharedSdk",
+  "homepage": "https://github.com/vitalystarodubov/example.git",
+  "license": {
+    "type": "Private"
+  },
+  "authors": {
+    "Vitali Starodubov": "vitaly.starodubov@solbeg.com"
+  },
+  "source": {
+    "git": "git@github.com:vitalystarodubov/example.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "sharedSdk.xcframework"
+  }
+}

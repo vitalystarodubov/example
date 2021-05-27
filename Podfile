@@ -1,11 +1,6 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
+use_frameworks!
 
 target 'Example' do
-  use_frameworks!
-
-pod 'sharedSdk', :path => 'https://github.com/vitalystarodubov/example.git'
-
-  # Pods for Example
-
+	pod 'sharedSdk', :git => 'git@github.com:vitalystarodubov/example.git'
 end
