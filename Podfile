@@ -4,7 +4,8 @@
 target 'Example' do
   use_frameworks!
 
-pod 'sharedSdk'
+pod 'sharedSdk', :path => 'https://github.com/vitalystarodubov/example.git'
+
   # Pods for Example
 
 end
