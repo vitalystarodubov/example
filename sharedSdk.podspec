@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     # change the source location
-    s.source            = { :https => 'https://github.com/vitalystarodubov/example.git' } 
+    s.source            = { :git => 'https://github.com/vitalystarodubov/example.git' } 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'sharedSdk.xcframework' # Your XCFramework
 end 
